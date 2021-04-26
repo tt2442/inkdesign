@@ -1,0 +1,49 @@
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <h5 class="intro-lead-in">Conception et Réalisation</h5>
+      <div class="intro-heading text-uppercase">Graphiste / <br>Webdesigner</div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Découvrir</a>
+    </div>
+  </div>
+</header>
+
+<!-- Services -->
+<section class="page-section" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Produits</h2>
+        <h3 class="section-subheading text-muted">Faites-nous confiance ainsi qu'à nos imprimeurs</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      {{ galerie("services") }}
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Grid -->
+<section class="bg-light page-section" id="portfolio">
+  <div class="container" style="margin:0px;max-width:100%;">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Portfolio</h2>
+        <h3 class="section-subheading text-muted">Nos différentes réalisations de logos</h3>
+      </div>
+    </div>
+    <div class="row" style="padding-left:5rem; padding-right:5rem;">
+      {{ galerie("portfolio") }}
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="page-section" id="contact">
+  <div class="container">
+    <div class="row">
+      {{ galerie("contact") }}
+    </div>
+  </div>
+</section><a href="#" class="back-to-top" style="display: inline;"><i class="fa fa-chevron-up"></i></a>

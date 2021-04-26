@@ -1,0 +1,21 @@
+{
+    "require": {
+        "kenjis/codeigniter-ss-twig": "^0.4.0",
+        "phpmv/php-mv-ui": "^2.3",
+        "mazedlx/asset_helper": "^2.0",
+        "twbs/bootstrap": "^4.4",
+        "components/jquery": "^3.4",
+        "components/font-awesome": "^5.12",
+        "components/modernizr": "^3.5",
+        "codeigniter/framework": "^3.1",
+        "snapappointments/bootstrap-select": "^1.13",
+        "itsjavi/fontawesome-iconpicker": "^3.2",
+        "machy8/xhtml-formatter": "^1.0",
+        "abraham/twitteroauth": "^1.0",
+        "facebook/graph-sdk": "^5.7",
+        "ipinfo/ipinfo": "^1.1",
+        "lenius/basket": "^3.0",
+        "components/jqueryui": "^1.12",
+        "rosell-dk/webp-convert": "^2.3"
+    }
+}
